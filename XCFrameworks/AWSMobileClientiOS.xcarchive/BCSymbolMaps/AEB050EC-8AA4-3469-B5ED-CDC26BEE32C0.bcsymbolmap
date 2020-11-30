@@ -1,0 +1,226 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.0 (clang-1200.0.32.2)
+/Applications/Xcode_12.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk
+iPhoneOS14.0.sdk
+/Users/royji/Library/Developer/Xcode/DerivedData/AWSAuthSDK-cqpptespaodmjbdajpxcnyoxfofe/Build/Intermediates.noindex/ArchiveIntermediates/AWSMobileClient/IntermediateBuildFilesPath/AWSAuthSDK.build/Release-iphoneos/AWSAuthCore.build/DerivedSources/AWSAuthCore_vers.c
+/Users/royji/workplace/iOS/aws-sdk-ios/AWSAuthSDK
++[AWSIdentityManager defaultIdentityManager]
+___44+[AWSIdentityManager defaultIdentityManager]_block_invoke
+-[AWSIdentityManager initWithCredentialProvider:]
+-[AWSIdentityManager authState]
+-[AWSIdentityManager logins]
+___28-[AWSIdentityManager logins]_block_invoke
+-[AWSIdentityManager identityId]
+-[AWSIdentityManager credentialsProvider]
+-[AWSIdentityManager setCredentialsProvider:]
+-[AWSIdentityManager .cxx_destruct]
+_defaultIdentityManager._defaultIdentityManager
+_defaultIdentityManager.onceToken
+___block_descriptor_32_e5_v8?0l
+___block_literal_global
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_CLASSLIST_REFERENCES_$_.16
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_CLASSLIST_REFERENCES_$_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_CLASSLIST_REFERENCES_$_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_CLASSLIST_REFERENCES_$_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+___block_descriptor_32_e17_16?0"AWSTask"8l
+___block_literal_global.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_CLASSLIST_REFERENCES_$_.52
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_SELECTOR_REFERENCES_.56
+__OBJC_$_CLASS_METHODS_AWSIdentityManager
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_AWSIdentityProviderManager
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_AWSIdentityProviderManager
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AWSIdentityProviderManager
+__OBJC_$_PROP_LIST_AWSIdentityProviderManager
+__OBJC_$_PROTOCOL_METHOD_TYPES_AWSIdentityProviderManager
+__OBJC_PROTOCOL_$_AWSIdentityProviderManager
+__OBJC_LABEL_PROTOCOL_$_AWSIdentityProviderManager
+__OBJC_CLASS_PROTOCOLS_$_AWSIdentityManager
+__OBJC_METACLASS_RO_$_AWSIdentityManager
+__OBJC_$_INSTANCE_METHODS_AWSIdentityManager
+_OBJC_IVAR_$_AWSIdentityManager._credentialsProvider
+__OBJC_$_INSTANCE_VARIABLES_AWSIdentityManager
+__OBJC_$_PROP_LIST_AWSIdentityManager
+__OBJC_CLASS_RO_$_AWSIdentityManager
+/Users/royji/workplace/iOS/aws-sdk-ios/AWSAuthSDK/Sources/AWSAuthCore/AWSIdentityManager.m
+Sources/AWSAuthCore/AWSIdentityManager.m
+Sources/AWSAuthCore/AWSIdentityManager.h
+__28-[AWSIdentityManager logins]_block_invoke
+__44+[AWSIdentityManager defaultIdentityManager]_block_invoke
+/Applications/Xcode_12.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/dispatch/once.h
++[AWSSignInManager sharedInstance]
+___34+[AWSSignInManager sharedInstance]_block_invoke
+-[AWSSignInManager setDontFederate]
+-[AWSSignInManager reSignInWithUsername:password:]
+-[AWSSignInManager registerAWSSignInProvider:]
+-[AWSSignInManager signInProviderForKey:]
+-[AWSSignInManager getRegisteredSignInProviders]
+-[AWSSignInManager isLoggedIn]
+-[AWSSignInManager wipeAll]
+-[AWSSignInManager logoutWithCompletionHandler:]
+___48-[AWSSignInManager logoutWithCompletionHandler:]_block_invoke
+___48-[AWSSignInManager logoutWithCompletionHandler:]_block_invoke_2
+___copy_helper_block_e8_32b40s
+___destroy_helper_block_e8_32s40s
+___copy_helper_block_e8_32b
+___destroy_helper_block_e8_32s
+-[AWSSignInManager loginWithSignInProviderKey:completionHandler:]
+-[AWSSignInManager resumeSessionWithCompletionHandler:]
+-[AWSSignInManager completeLogin]
+___33-[AWSSignInManager completeLogin]_block_invoke
+___33-[AWSSignInManager completeLogin]_block_invoke_2
+___copy_helper_block_e8_32s40s
+___copy_helper_block_e8_32s
+-[AWSSignInManager interceptApplication:didFinishLaunchingWithOptions:]
+-[AWSSignInManager interceptApplication:openURL:sourceApplication:annotation:]
+-[AWSSignInManager delegate]
+-[AWSSignInManager setDelegate:]
+-[AWSSignInManager completionHandler]
+-[AWSSignInManager setCompletionHandler:]
+-[AWSSignInManager currentSignInProvider]
+-[AWSSignInManager setCurrentSignInProvider:]
+-[AWSSignInManager potentialSignInProvider]
+-[AWSSignInManager setPotentialSignInProvider:]
+-[AWSSignInManager shouldFederate]
+-[AWSSignInManager setShouldFederate:]
+-[AWSSignInManager pendingSignIn]
+-[AWSSignInManager setPendingSignIn:]
+-[AWSSignInManager pendingUsername]
+-[AWSSignInManager setPendingUsername:]
+-[AWSSignInManager pendingPassword]
+-[AWSSignInManager setPendingPassword:]
+-[AWSSignInManager .cxx_destruct]
+_signInProviderInfo
+_sharedInstance._sharedSignInManager
+_sharedInstance.onceToken
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_CLASSLIST_REFERENCES_$_.12
+_OBJC_CLASSLIST_REFERENCES_$_.13
+_identityManager
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.47
+___block_descriptor_48_e8_32bs40s_e5_v8?0l
+___block_descriptor_40_e8_32bs_e17_16?0"AWSTask"8l
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_CLASSLIST_REFERENCES_$_.59
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+___block_descriptor_48_e8_32s40s_e5_v8?0l
+___block_descriptor_40_e8_32s_e17_16?0"AWSTask"8l
+__OBJC_$_PROTOCOL_REFS_AWSSignInProviderApplicationIntercept
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_AWSSignInProviderApplicationIntercept
+__OBJC_$_PROTOCOL_METHOD_TYPES_AWSSignInProviderApplicationIntercept
+__OBJC_PROTOCOL_$_AWSSignInProviderApplicationIntercept
+__OBJC_LABEL_PROTOCOL_$_AWSSignInProviderApplicationIntercept
+__OBJC_PROTOCOL_REFERENCE_$_AWSSignInProviderApplicationIntercept
+_OBJC_SELECTOR_REFERENCES_.134
+_OBJC_SELECTOR_REFERENCES_.135
+_OBJC_SELECTOR_REFERENCES_.136
+__OBJC_$_CLASS_METHODS_AWSSignInManager
+__OBJC_METACLASS_RO_$_AWSSignInManager
+__OBJC_$_INSTANCE_METHODS_AWSSignInManager
+_OBJC_IVAR_$_AWSSignInManager._shouldFederate
+_OBJC_IVAR_$_AWSSignInManager._pendingSignIn
+_OBJC_IVAR_$_AWSSignInManager._delegate
+_OBJC_IVAR_$_AWSSignInManager._completionHandler
+_OBJC_IVAR_$_AWSSignInManager._currentSignInProvider
+_OBJC_IVAR_$_AWSSignInManager._potentialSignInProvider
+_OBJC_IVAR_$_AWSSignInManager._pendingUsername
+_OBJC_IVAR_$_AWSSignInManager._pendingPassword
+__OBJC_$_INSTANCE_VARIABLES_AWSSignInManager
+__OBJC_$_PROP_LIST_AWSSignInManager
+__OBJC_CLASS_RO_$_AWSSignInManager
+/Users/royji/workplace/iOS/aws-sdk-ios/AWSAuthSDK/Sources/AWSAuthCore/AWSSignInManager.m
+Sources/AWSAuthCore/AWSSignInManager.m
+Sources/AWSAuthCore/AWSSignInManager.h
+__copy_helper_block_e8_32s
+__copy_helper_block_e8_32s40s
+__33-[AWSSignInManager completeLogin]_block_invoke_2
+__33-[AWSSignInManager completeLogin]_block_invoke
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32b
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32b40s
+__48-[AWSSignInManager logoutWithCompletionHandler:]_block_invoke_2
+__48-[AWSSignInManager logoutWithCompletionHandler:]_block_invoke
+__34+[AWSSignInManager sharedInstance]_block_invoke
++[AWSAuthUIHelper setUpFormShadowForView:]
++[AWSAuthUIHelper getBackgroundColor:]
++[AWSAuthUIHelper getSecondaryBackgroundColor]
++[AWSAuthUIHelper applyPrimaryColorFromConfig:toView:]
++[AWSAuthUIHelper applyPrimaryColorFromConfig:toView:background:]
++[AWSAuthUIHelper getFont:]
++[AWSAuthUIHelper isBackgroundColorFullScreen:]
++[AWSAuthUIHelper isDarkColor:]
++[AWSAuthUIHelper getTextColor:]
++[AWSAuthUIHelper setAWSUIConfiguration:]
++[AWSAuthUIHelper getAWSUIConfiguration]
+___clang_at_available_requires_core_foundation_framework
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.52
+_awsUIConfiguration
+__OBJC_$_CLASS_METHODS_AWSAuthUIHelper
+__OBJC_METACLASS_RO_$_AWSAuthUIHelper
+__OBJC_CLASS_RO_$_AWSAuthUIHelper
+/Users/royji/workplace/iOS/aws-sdk-ios/AWSAuthSDK/Sources/AWSAuthCore/AWSAuthUIHelper.m
+Sources/AWSAuthCore/AWSAuthUIHelper.m
